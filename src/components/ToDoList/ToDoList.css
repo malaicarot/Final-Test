@@ -1,0 +1,79 @@
+.taskToDo {
+    width: 520px;
+    height: 60px;
+}
+
+.todoItem {
+    width: 100%;
+    height: 100%;
+    border: 1px solid LightGray;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.todoItem ul {
+    padding: 15px;
+}
+
+.todoItem ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-transform: capitalize;
+    padding-right: 10px;
+}
+
+.todoItem ul li p {
+    flex: 1 1;
+    padding-left: 10px;
+
+}
+
+.todoItem ul li span {
+    padding-right: 20px;
+    transition: 0.7s;
+    width: 35px;
+}
+
+.done .taskTitle {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+.taskTitle {
+    display: flex;
+    align-items: center;
+
+}
+
+.todoItem:hover {
+    background-color: #222;
+    color: #ffffff;
+}
+
+.todoItem ul li span:hover {
+    transform: scale(2);
+
+}
+
+.clearAll {
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.clearAllBtn {
+    border: none;
+    outline: none;
+    background-color: #ba0f30;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.clearAllBtn:hover{
+    background-color: #FF3366;
+}
